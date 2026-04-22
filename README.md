@@ -32,3 +32,7 @@ docker ps -a
 docker volume ls
 
 ````
+
+Docker compose -f Docker-compose.prod.yml build
+
+docker push northamerica-northeast1-docker.pkg.dev/spring-boot-docker-app/spring-boot-docker-app/spring-boot-app:latest
