@@ -1,0 +1,15 @@
+steps:
+  - name: 'gcr.io/cloud-builders/docker'
+    args:
+      - build
+      - -t
+      - northamerica-northeast1-docker.pkg.dev/spring-boot-docker-app/spring-boot-docker-app/spring-boot-app:latest
+      - .
+
+  - name: 'gcr.io/cloud-builders/docker'
+    args:
+      - push
+      - northamerica-northeast1-docker.pkg.dev/spring-boot-docker-app/spring-boot-docker-app/spring-boot-app:latest
+
+options:
+  logging: CLOUD_LOGGING_ONLY
