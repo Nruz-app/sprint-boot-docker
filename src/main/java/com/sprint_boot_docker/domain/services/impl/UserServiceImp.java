@@ -34,7 +34,7 @@ public class UserServiceImp implements UserService {
     private String appPass;
 
     public UserRequest getUser() {
-        UserRequest user = new UserRequest(autor, appPass, "ADMIN-GCP");
+        UserRequest user = new UserRequest(autor, appPass, "ADMIN");
         return user;
     }
 }

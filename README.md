@@ -2,6 +2,8 @@
 
 Este proyecto utiliza Spring Boot junto con Docker para facilitar la ejecución y despliegue de la aplicación.
 http://localhost:8080/api/user
+GCP
+https://spring-boot-app-268724069810.northamerica-northeast1.run.app/api/user
 
 ---
 
